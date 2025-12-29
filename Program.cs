@@ -1,5 +1,13 @@
 using StokTakipUygulaması;
+using System;
 using System.Windows.Forms;
 
-ApplicationConfiguration.Initialize();
-Application.Run(new Form1());
+public static class Program
+{
+    [STAThread]
+    public static void Main()
+    {
+        ApplicationConfiguration.Initialize();
+        Application.Run(new Form1());
+    }
+}
