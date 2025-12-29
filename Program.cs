@@ -1,4 +1,4 @@
-using StokTakipUygulaması;
+
 using System;
 using System.Windows.Forms;
 
